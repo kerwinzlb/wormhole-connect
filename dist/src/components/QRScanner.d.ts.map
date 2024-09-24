@@ -1,0 +1,1 @@
+{"version":3,"file":"QRScanner.d.ts","sourceRoot":"","sources":["../../../src/components/QRScanner.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAgD,MAAM,OAAO,CAAC;AAqBrE,UAAU,cAAc;IACtB,MAAM,EAAE,CAAC,IAAI,EAAE,MAAM,KAAK,IAAI,CAAC;CAChC;AAED,iBAAS,SAAS,CAAC,EAAE,MAAM,EAAE,EAAE,cAAc,qBAyC5C;AAED,eAAe,SAAS,CAAC"}

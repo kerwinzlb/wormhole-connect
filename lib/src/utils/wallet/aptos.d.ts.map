@@ -1,0 +1,1 @@
+{"version":3,"file":"aptos.d.ts","sourceRoot":"","sources":["../../../../src/utils/wallet/aptos.ts"],"names":[],"mappings":"AAAA,OAAO,EAEL,UAAU,EAEX,MAAM,2CAA2C,CAAC;AACnD,OAAO,EAAE,MAAM,EAAE,MAAM,oCAAoC,CAAC;AAa5D,OAAO,EAAE,WAAW,EAAE,MAAM,qCAAqC,CAAC;AAwBlE,wBAAgB,YAAY;;;;;;;;;;EAE3B;AAED,wBAAsB,sBAAsB,CAC1C,WAAW,EAAE,UAAU,EACvB,MAAM,EAAE,MAAM,GAAG,SAAS,gJAmB3B"}

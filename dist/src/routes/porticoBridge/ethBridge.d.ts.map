@@ -1,0 +1,1 @@
+{"version":3,"file":"ethBridge.d.ts","sourceRoot":"","sources":["../../../../src/routes/porticoBridge/ethBridge.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAChD,OAAO,EAAE,KAAK,EAAE,MAAM,cAAc,CAAC;AAErC,qBAAa,SAAU,SAAQ,aAAa;IAC1C,QAAQ,CAAC,IAAI,EAAE,KAAK,CAAmB;IACvC,MAAM,CAAC,QAAQ,CAAC,gBAAgB,EAAE,MAAM,EAAE,CAYxC;;CAKH"}

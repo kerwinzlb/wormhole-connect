@@ -1,0 +1,1 @@
+{"version":3,"file":"Confirmations.d.ts","sourceRoot":"","sources":["../../../../src/views/Redeem/Confirmations.tsx"],"names":[],"mappings":"AAEA,OAAO,EAAE,SAAS,EAAE,MAAM,2CAA2C,CAAC;AACtE,OAAO,KAAuC,MAAM,OAAO,CAAC;AAiC5D,KAAK,KAAK,GAAG;IACX,KAAK,EAAE,SAAS,CAAC;IACjB,WAAW,EAAE,MAAM,CAAC;CACrB,CAAC;AAEF,iBAAS,aAAa,CAAC,KAAK,EAAE,KAAK,qBA0FlC;AAED,eAAe,aAAa,CAAC"}

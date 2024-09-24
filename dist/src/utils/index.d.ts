@@ -1,0 +1,41 @@
+import { BigNumber, BigNumberish, ethers } from 'ethers';
+import { TokenId, ChainName, ChainId, Context } from '@wormhole-foundation/wormhole-connect-sdk';
+import { ChainConfig, TokenConfig } from '../config/types';
+import { TokenPrices } from '../store/tokenPrices';
+
+export declare const MAX_DECIMALS = 6;
+export declare const NORMALIZED_DECIMALS = 8;
+export declare function convertAddress(address: string): string;
+export declare function trimAddress(address: string, max?: number): string;
+export declare function displayAddress(chain: ChainName, address: string): string;
+export declare function displayWalletAddress(walletType: Context | undefined, address: string): string;
+export declare function getChainByChainId(chainId: number | string): ChainConfig | undefined;
+export declare function getChainConfig(chain: ChainName | ChainId): ChainConfig;
+export declare function getWrappedToken(token: TokenConfig): TokenConfig;
+export declare function getWrappedTokenId(token: TokenConfig): TokenId;
+export declare function getTokenById(tokenId: TokenId): TokenConfig | undefined;
+export declare function getDisplayName(token: TokenConfig): string;
+export declare function getGasToken(chain: ChainName | ChainId): TokenConfig;
+export declare function getTokenDecimals(chain: ChainId, tokenId?: TokenId | 'native'): number;
+export declare function copyTextToClipboard(text: string): boolean;
+export declare function hexPrefix(hex: string): string;
+export declare function isValidTxId(chain: string, tx: string): boolean;
+export declare function usePrevious(value: any): undefined;
+export declare function fromNormalizedDecimals(amount: BigNumber, decimals: number): BigNumber;
+export declare function toNormalizedDecimals(amount: BigNumberish, decimals: number, numDecimals?: number): string;
+export declare function normalizeAmount(amount: BigNumber, decimals: number): BigNumber;
+export declare function deNormalizeAmount(amount: BigNumber, decimals: number): BigNumber;
+export declare function sleep(timeout: number): Promise<unknown>;
+export declare function hydrateHrefTemplate(href: string, fromChain?: string, toChain?: string): string;
+export declare function isEqualCaseInsensitive(a: string, b: string): boolean;
+export declare const sortTokens: (tokens: TokenConfig[], chain: ChainName | ChainId) => TokenConfig[];
+export declare const getTokenPrice: (tokenPrices: TokenPrices, token: TokenConfig) => number | undefined;
+export declare const getUSDFormat: (price: number | undefined) => string;
+export declare const calculateUSDPrice: (amount?: number | string, tokenPrices?: TokenPrices, token?: TokenConfig) => string;
+export declare const tryParseErrorMessage: (iface: ethers.utils.Interface, error: any) => string | undefined;
+export declare const removeDust: (amount: BigNumber, decimals: number) => BigNumber;
+export declare const useUSDamountGetter: () => ({ token, amount, }: {
+    token: string;
+    amount: string;
+}) => number | undefined;
+//# sourceMappingURL=index.d.ts.map
